@@ -13,12 +13,12 @@ defined( 'ABSPATH' ) || exit;
 /**
  *  Syncs users groups
  */
-class ByddyPress_Auto_Join_Groups_Sync {
+class BuddyPress_Auto_Join_Groups_Sync {
 
 	/**
 	 * Singleton.
 	 *
-	 * @var ByddyPress_Auto_Join_Groups_Sync
+	 * @var BuddyPress_Auto_Join_Groups_Sync
 	 */
 	private static $instance = null;
 
@@ -32,7 +32,7 @@ class ByddyPress_Auto_Join_Groups_Sync {
 	/**
 	 * Boots the class.
 	 *
-	 * @return ByddyPress_Auto_Join_Groups_Sync
+	 * @return BuddyPress_Auto_Join_Groups_Sync
 	 */
 	public static function boot() {
 
@@ -99,4 +99,5 @@ class ByddyPress_Auto_Join_Groups_Sync {
 }
 
 // init.
-ByddyPress_Auto_Join_Groups_Sync::boot();
+BuddyPress_Auto_Join_Groups_Sync::boot();
+
